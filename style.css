@@ -65,7 +65,12 @@ body.stretched #header.full-header .container {
 }
 
 .panel-wrapper img {
+    transition: all .2s ease-in-out;
 	margin-bottom: 20px;
+}
+
+.panel-wrapper img:hover{
+    transform: scale(1.06);
 }
 
 #slideshow ul li {
