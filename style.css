@@ -1,3 +1,6 @@
+
+/*FIXES*/
+
 .about-us {
     padding-top: 70px;
 }
@@ -117,6 +120,14 @@ h4.panel-title a {
 .ei-slider-thumbs {
     z-index: 100 !important;
 }
+
+a.foot {
+    color:#666666 !important;
+}
+
+    a.foot:hover {
+        color:#555 !important;
+    }
 
 /*-----------------------------------------------------------------------------------
 
