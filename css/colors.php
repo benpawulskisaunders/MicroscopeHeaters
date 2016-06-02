@@ -101,7 +101,12 @@ h6 > span:not(.nocolor),
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus,
-.dark .post-timeline .entry:hover .entry-timeline,
+
+
+
+
+
+ .post-timeline .entry:hover .entry-timeline,
 .dark .post-timeline .entry:hover .timeline-divider { color: <?php echo $color; ?>; }
 
 .color,
