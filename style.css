@@ -71,10 +71,14 @@ body.stretched #header.full-header .container {
         width: 30%;
     }
 
-.panel-wrapper img {
+.panel-wrapper img, img.grow {
     transition: all .2s ease-in-out;
     margin-bottom: 20px;
 }
+
+/*img.grow {
+    width:
+}*/
 
     .panel-wrapper img:hover {
         transform: scale(1.19);
