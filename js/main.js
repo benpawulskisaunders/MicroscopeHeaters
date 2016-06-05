@@ -23,19 +23,4 @@ $(function() {
     });
 });
 
-// animate panel chevrons
-$(function() {
-    var chevronUp = '<i class="fa fa-chevron-circle-up"></i>';
-    var chevronDown = '<i class="fa fa-chevron-circle-down"></i>';
 
-    $('html, body').on('click', 'h4.panel-title a.collapsed', function() {
-      var iconContainer = $(this).find('div');
-      iconContainer.html(chevronUp);
-    })
-
-    $('html, body').on('click', 'h4.panel-title a:not(.collapsed)', function() {
-      var iconContainer = $(this).find('div');
-      iconContainer.html(chevronDown);
-    })
-
-});

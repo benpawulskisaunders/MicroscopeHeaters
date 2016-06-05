@@ -1,6 +1,7 @@
 
 /*FIXES*/
 
+
 .about-us {
     padding-bottom: 17px;
 }
@@ -76,9 +77,9 @@ body.stretched #header.full-header .container {
     margin-bottom: 20px;
 }
 
-/*img.grow {
-    width:
-}*/
+img.grow:hover {
+    transform: scale(1.05);
+}
 
     .panel-wrapper img:hover {
         transform: scale(1.19);
@@ -118,6 +119,22 @@ body.stretched #header.full-header .container {
 h4.panel-title a {
     display: block;
     padding: 10px 15px;
+}
+
+h4.panel-title a::after {
+    float:right;
+    margin-top: 4px;
+    content: "\f139";
+    display: block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+}
+
+h4.panel-title a.collapsed::after{
+    content: "\f13a";
 }
 
 .ei-slider-thumbs {
