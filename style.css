@@ -1,9 +1,13 @@
 
 /*FIXES*/
 
+body{
+    min-width:480px;
+}
+
 
 .about-us {
-    padding-bottom: 17px;
+    padding-bottom: 20px;
 }
 
     .about-us p, .about-us h5 {
@@ -74,7 +78,7 @@ body.stretched #header.full-header .container {
 
 .panel-wrapper img, img.grow {
     transition: all .2s ease-in-out;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 img.grow:hover {
@@ -84,6 +88,11 @@ img.grow:hover {
     .panel-wrapper img:hover {
         transform: scale(1.19);
     }
+
+.textwrap{
+    float:right;
+    margin:10px;
+}
 
 #slideshow ul li {
     list-style-type: none;
