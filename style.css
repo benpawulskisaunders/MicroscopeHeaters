@@ -78,7 +78,8 @@ body.stretched #header.full-header .container {
 
 .panel-wrapper img, img.grow {
     transition: all .2s ease-in-out;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 1px 1px #ccc;
 }
 
 img.grow:hover {
@@ -179,6 +180,7 @@ i.si {
     border-radius: 4px;
     transition: ease-in-out 0.2s;
     cursor: pointer;
+    bottom: 13px;
 }
 
     i.si:hover {

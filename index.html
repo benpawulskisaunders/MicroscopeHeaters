@@ -73,54 +73,62 @@
                                 <a href="#microscopeChambers"><div>Microscope <br>Chambers</div></a>
                                 <ul>
                                     <li>
-                                        <a href="#zeiss"><div>Zeiss</div></a>
+                                        <a href="#zeiss" onclick="OpenZeiss()"><div>Zeiss</div></a>
                                     </li>
                                     <li>
-                                        <a href="#leica"><div>Leica</div></a>
+                                        <a href="#leica" onclick="OpenLeica()"><div>Leica</div></a>
                                     </li>
                                     <li>
-                                        <a href="#olympus"><div>Olympus</div></a>
+                                        <a href="#olympus" onclick="OpenOlympus()"><div>Olympus</div></a>
                                     </li>
                                     <li>
-                                        <a href="#nikon"><div>Nikon</div></a>
+                                        <a href="#nikon" onclick="OpenNikon()"><div>Nikon</div></a>
                                     </li>
                                     <li>
-                                        <a href="#andor"><div>Andor, Crest, Witec &amp; Abberior</div></a>
+                                        <a href="#andor" onclick="OpenThirdParty()"><div>Andor, Crest, Witec &amp; Abberior</div></a>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#heated_inserts"><div>Heated <br>Inserts</div></a>
+                                <a href="#heated_inserts" onclick="OpenHeatedInserts()"><div>Heated <br>Inserts</div></a>
                                 <ul>
                                     <li>
-                                        <a href="#heated_inserts"><div>Stage Top Heater Solutions</div></a>
+                                        <a href="#heated_inserts" onclick="OpenHeatedInserts()"><div>Stage Top Heater Solutions</div></a>
                                     </li>
                                     <li>
-                                        <a href="#heated_inserts"><div>Open Heated Inserts</div></a>
+                                        <a href="#heated_inserts" onclick="OpenHeatedInserts()"><div>Open Heated Inserts</div></a>
                                     </li>
                                     <li>
-                                        <a href="#heated_inserts"><div>Intravital Microscopy Imaging System</div></a>
+                                        <a href="#heated_inserts" onclick="OpenHeatedInserts()"><div>Intravital Microscopy Imaging System</div></a>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#gas_controllers"><div>Gas <br>Controllers</div></a>
+                                <a href="#gas_controllers" onclick="OpenGas()"><div>Gas <br>Controllers</div></a>
                                 <ul>
                                     <li>
-                                        <a href="#gas_controllers"><div>CO<sub>2</sub></div></a>
+                                        <a href="#gas_controllers" onclick="OpenGas()"><div>CO<sub>2</sub></div></a>
                                     </li>
                                     <li>
-                                        <a href="#gas_controllers"><div>CO<sub>2</sub> - O<sub>2</sub></div></a>
+                                        <a href="#gas_controllers" onclick="OpenGas()"><div>CO<sub>2</sub> - O<sub>2</sub></div></a>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#vibration-free-heaters"><div>Vibration Free<br>Heaters</div></a>
+                                <a href="#vibration-free-heaters" onclick="OpenVibFree()"><div>Vibration Free<br>Heaters</div></a>
                                 <ul>
-                                    <li><a href="#vibration-free-heaters">Wider Temperature Range</a></li>
-                                    <li><a href="#vibration-free-heaters">Cleaner Sample Environment</a></li>
-                                    <li><a href="#vibration-free-heaters">Better Focused Stability</a></li>
-                                    <li><a href="#vibration-free-heaters">Better Microscope Access</a></li>
+                                    <li>
+                                        <a href="#vibration-free-heaters" onclick="OpenVibFree()">Wider Temperature Range</a>
+                                    </li>
+                                    <li>
+                                        <a href="#vibration-free-heaters" onclick="OpenVibFree()">Cleaner Sample Environment</a>
+                                    </li>
+                                    <li>
+                                        <a href="#vibration-free-heaters" onclick="OpenVibFree()">Better Focused Stability</a>
+                                    </li>
+                                    <li>
+                                        <a href="#vibration-free-heaters" onclick="OpenVibFree()">Better Microscope Access</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li>
@@ -340,7 +348,7 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="zeiss">
                                     <h4 class="panel-title">
-                                        <a role="button" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <a id="Zeiss-anchor" role="button" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                             Zeiss Environmental Chambers from Digital Pixel
                                         </a>
                                     </h4>
@@ -371,17 +379,19 @@
                                             The system stability of the Elyra Super Resolution Microscope can be enhanced by using our heaters to gently warm the system to 22 <sup>o</sup>C.
                                         </div>
                                         <div><h5>SuperSeal<sup>TM</sup>   System</h5></div>
+                                        <img src="images/AccordionPanel/zeiss-france.jpg" class="grow textwrap">
                                         <div class="text">
                                             Designed for researchers at the University of Heidelberg, the application demanded that full access to a multi well dish was required,
                                             in order to add a drug when certain points in the cell cycle were reached. However full CO<sub>2</sub> control in the sample area is essential to
                                             maintaining cell viability. Our unique Enhanced Sealing Technology provides CO<sub>2</sub> control within the whole chamber.
                                         </div>
-                                        <div class="box textwrap" style="height:225px">
+
+                                        <!--<div class="box textwrap" style="height:225px">
                                             <img src="images/AccordionPanel/zeiss-france.jpg" style="height:100%">
                                             <span class="caption simple-caption">
                                                 <p><b>Zeiss 780 Confocal</b><br /><i>Grenoble, France</i></p>
                                             </span>
-                                        </div>
+                                        </div>-->
                                         <div><h5>Great Ergonomics</h5></div>
                                         <div class="text">
                                             The top of the chamber is directly connected to the transmitted light column of the Zeiss inverted systems, so getting access to the
@@ -429,7 +439,7 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="leica">
                                     <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <a id="Leica-anchor" class="collapsed" role="button" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                             Leica  Environmental Chambers from Digital Pixel
                                         </a>
                                     </h4>
@@ -504,7 +514,7 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="olympus">
                                     <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <a id="Olympus-anchor" class="collapsed" role="button" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                             Olympus Environmental Chambers from Digital Pixel
 
                                         </a>
@@ -566,7 +576,7 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="nikon">
                                     <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        <a id="Nikon-anchor" class="collapsed" role="button" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                             Nikon Environmental Chambers from Digital Pixel
 
                                         </a>
@@ -599,6 +609,7 @@
                                             We have also designed systems for use with the TI-E when combined with either the Nikon A1 Confocal, or Yokogawa Spinning Disk systems
                                             from Visitron, Andor or Perkin Elmer.
                                         </div>
+                                        <img src="images/AccordionPanel/nikon_chamber_A.jpg" class="grow textwrap" style="height:210px; margin-top:-7px;" />
                                         <div class="text">
                                             All of our designs provide excellent access to the microscope. Chambers are available in either clear, mast black, shaded  or mixed, with matt back to all sides of the chamber apart from the front, which is clear. The latter systems are available with internal LED illumination.
                                         </div>
@@ -623,7 +634,7 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="andor">
                                     <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        <a id="ThirdParty-anchor" class="collapsed" role="button" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                             Andor, Crest, Witec &amp; Abberior Environmental Chambers from Digital Pixel
 
                                         </a>
@@ -670,7 +681,7 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="heated_inserts">
                                     <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSix">
+                                        <a id="HeatedInserts-anchor" class="collapsed" role="button" data-toggle="collapse" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSix">
                                             Heated Microscope Stage Inserts
                                         </a>
                                     </h4>
@@ -709,7 +720,7 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" o id="gas_controllers">
                                     <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                        <a id="Gas-anchor" class="collapsed" role="button" data-toggle="collapse" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                                             CO<sub>2</sub> &amp; CO<sub>2</sub>-O<sub>2</sub> Controller Solutions
 
                                         </a>
@@ -725,6 +736,7 @@
                                                 Put simply 5% CO<sub>2</sub> concentration at the cylinder does not guarantee the optimum outcome for your cells.
                                                 Furthermore the use of flow based mixing systems, while a little less expensive provide far from consistent gas concentrations.
                                             </div>
+                                            <img src="images/AccordionPanel/CO2_Controller_A.jpg" class="grow textwrap" style="height:210px; margin-top: -7px;" />
                                             <div class="text">
                                                 There are three options in the Digital Pixel range of CO<sub>2</sub> controllers, designed to meet the needs of a single microscope system, or those of a Core Microscope Facility, and finally  for use with our SuperSealTM enhanced sealed chamber system. System installation is easy.
                                                 Digital Pixel CO<sub>2</sub>  controllers only require 100% CO<sub>2</sub>.  Additional gas supplies such as air or N<sub>2</sub> are not necessary.
@@ -769,7 +781,7 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" o id="vibration-free-heaters">
                                     <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                        <a id="VibFree-anchor" class="collapsed" role="button" data-toggle="collapse" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                                             Vibration Free Heaters
 
                                         </a>
@@ -868,9 +880,9 @@
                                             Science Park Square<br>
                                             Brighton, BN1 9SB<br>
                                         </address>
-                                        <i class="fa fa-phone">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>0044 (0) 1273 502176<br>
-                                        <abbr title="Fax"><strong>Fax:</strong></abbr>&nbsp; 0044 (0) 1273 704499<br>
-                                        <i class="icon-envelope2"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <a class="footer-link" href="mailto:support@digitalpixel.co.uk">support@digitalpixel.co.uk</a>
+                                        <i class="fa fa-phone">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i>0044 (0) 1273 502176<br>
+                                        <i class="fa fa-fax"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0044 (0) 1273 704499<br>
+                                        <i class="icon-envelope2"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="footer-link" href="mailto:support@digitalpixel.co.uk">support@digitalpixel.co.uk</a>
                                     </div>
 
                                 </div>
@@ -912,11 +924,11 @@
                     <div id="about-us" class="container clearfix">
                         <div class="col_half">
                             Copyrights &copy; 2016 All Rights Reserved by Digital Pixel Limited<br>
-                            <div class="copyright-links footer-link">
+                            <!--<div class="copyright-links footer-link">
                                 <a class="footer-link" href="#">Terms of Use</a>
                                 <span>/</span>
                                 <a class="footer-link" href="#">Privacy Policy</a>
-                            </div>
+                            </div>-->
                         </div>
                         <div class="col_half col_last tright">
                             <div class="fright clearfix">
