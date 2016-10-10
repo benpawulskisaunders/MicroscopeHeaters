@@ -50,31 +50,31 @@ address {
     display: flex;
 }
 
-h2 .tabbed:nth-of-type(1) {
+.tabbed:nth-of-type(1) {
     margin-left: 0;
 }
 
-h2 .tabbed:nth-of-type(2) {
+.tabbed:nth-of-type(2) {
     margin-left: 5px;
 }
 
-h2 .tabbed:nth-of-type(3) {
+.tabbed:nth-of-type(3) {
     margin-left: 10px;
 }
 
-h2 .tabbed:nth-of-type(4) {
+.tabbed:nth-of-type(4) {
     margin-left: 15px;
 }
 
-h2 .tabbed:nth-of-type(5) {
+.tabbed:nth-of-type(5) {
     margin-left: 20px;
 }
 
-h2 .tabbed:nth-of-type(6) {
+.tabbed:nth-of-type(6) {
     margin-left: 25px;
 }
 
-h2 .tabbed:nth-of-type(7) {
+.tabbed:nth-of-type(7) {
     margin-left: 30px;
 }
 
