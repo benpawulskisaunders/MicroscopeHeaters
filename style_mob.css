@@ -1,9 +1,14 @@
-
-/*FIXES*/
-body {
-    min-width: 1205px;
+#top-search{
+    display: none;
 }
 
+#menu-bar{
+    /*something something*/
+}
+
+.menu-hidden{
+    display: none;
+}
 
 .about-us {
     padding-bottom: 20px;
@@ -16,10 +21,6 @@ body {
 
 address {
     margin-bottom: 47px !important;
-}
-
-#top-search {
-    margin: 25px 0 40px 10px !important;
 }
 
 #header.full-header #primary-menu > ul {
@@ -48,34 +49,6 @@ address {
     display: -moz-flex;
     display: -webkit-flex;
     display: flex;
-}
-
-h2 .tabbed:nth-of-type(1) {
-    margin-left: 0;
-}
-
-h2 .tabbed:nth-of-type(2) {
-    margin-left: 5px;
-}
-
-h2 .tabbed:nth-of-type(3) {
-    margin-left: 10px;
-}
-
-h2 .tabbed:nth-of-type(4) {
-    margin-left: 15px;
-}
-
-h2 .tabbed:nth-of-type(5) {
-    margin-left: 20px;
-}
-
-h2 .tabbed:nth-of-type(6) {
-    margin-left: 25px;
-}
-
-h2 .tabbed:nth-of-type(7) {
-    margin-left: 30px;
 }
 
 .test-subject {
@@ -108,26 +81,25 @@ body.stretched #header.full-header .container {
     margin-bottom: 20px;
     box-shadow: 1px 1px 1px 1px #ccc;
 }
-
 .grow {
-    -webkit-transition: all 300ms ease-in-out;
-    -moz-transition: all 300ms ease-in-out;
-    -o-transition: all 300ms ease-in-out;
-    -ms-transition: all 300ms ease-in-out;
-    transition: all 300ms ease-in-out;
+        -webkit-transition: all 300ms ease-in-out;
+        -moz-transition: all 300ms ease-in-out;
+        -o-transition: all 300ms ease-in-out;
+        -ms-transition: all 300ms ease-in-out;
+        transition: all 300ms ease-in-out;
 }
 
-    .grow:hover {
-        transform: scale(1.05);
+.grow:hover {
+    transform: scale(1.05);
+}
+
+    .panel-wrapper img:hover {
+        transform: scale(1.19);
     }
 
-.panel-wrapper img:hover {
-    transform: scale(1.19);
-}
-
-.textwrap {
-    float: right;
-    margin: 10px;
+.textwrap{
+    float:right;
+    margin:10px;
 }
 
 #slideshow ul li {
@@ -166,21 +138,21 @@ h4.panel-title a {
     padding: 10px 15px;
 }
 
-    h4.panel-title a::after {
-        float: right;
-        margin-top: 4px;
-        content: "\f139";
-        display: block;
-        font: normal normal normal 14px/1 FontAwesome;
-        font-size: inherit;
-        text-rendering: auto;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-    }
+h4.panel-title a::after {
+    float:right;
+    margin-top: 4px;
+    content: "\f139";
+    display: block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+}
 
-    h4.panel-title a.collapsed::after {
-        content: "\f13a";
-    }
+h4.panel-title a.collapsed::after{
+    content: "\f13a";
+}
 
 .ei-slider-thumbs {
     z-index: 100 !important;
@@ -196,7 +168,7 @@ h4.panel-title a {
     color: #555 !important;
 }
 
-    .footer-link:hover {
+    .footer-link:hover{
         color: #828282 !important;
     }
 
@@ -1468,11 +1440,9 @@ html[xmlns] .slider-wrap {
 	Header
 -----------------------------------------------------------------*/
 
-
 #header {
     position: relative;
     background-color: #FFF;
-    border-bottom: 1px solid #F5F5F5;
 }
 
     #header .container {
@@ -1524,10 +1494,6 @@ html[xmlns] .slider-wrap {
         padding-top: 100px;
     }
 
-    #header.full-header {
-        border-bottom-color: #EEE;
-    }
-
 body.stretched #header.full-header .container {
     width: 100%;
     padding: 0 30px;
@@ -1536,12 +1502,6 @@ body.stretched #header.full-header .container {
 #header.transparent-header.full-header #header-wrap {
     border-bottom: 1px solid rgba(0,0,0,0.1);
 }
-
-#slider + #header.transparent-header.full-header #header-wrap {
-    border-top: 1px solid rgba(0,0,0,0.1);
-    border-bottom: none;
-}
-
 
 /* ----------------------------------------------------------------
 	Logo
