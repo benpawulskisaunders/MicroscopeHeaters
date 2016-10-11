@@ -78,6 +78,18 @@ address {
     margin-left: 30px;
 }
 
+.tabbed:nth-of-type(8) {
+    margin-left: 35px;
+}
+
+.tabbed:nth-of-type(9) {
+    margin-left: 40px;
+}
+
+.tabbed:nth-of-type(10) {
+    margin-left: 45px;
+}
+
 .test-subject {
     width: 65%;
     padding-right: 20px;
